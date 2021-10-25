@@ -13,24 +13,23 @@
 
 verse = \relative {
   d'8( e) g( a) |
-  b d, g g' c, d, g g'|
-  b, d, g e' d4 c |
-  a,8 e' a e b' e, a b |
-  \acciaccatura b c e, a e b'4 c |
+  << {b d, g g' c, d, g g'} \\ {g,,2 g} >>|
+  << {b'8 d, g e' d4 c} \\ {g,2( g8) g4 g8} >> |
+  a8 e' a e b' e, a b |
+  \acciaccatura b c e, a e <b' a,>4 <c b,> |
   c,8 e g c b e, g b |
   d, a' c e \acciaccatura e fis c g'( a) |
-  g d, b' g
-  
+  << {g d, b' g} \\ {g,2} >>
 }
 
 refrain = \relative {
-  <a' c>( <b d>) <a c>( <g b>) |
-  g d g g'
-  <g, b>( <a c>) <b d>( <g b>) |
+  <a' c>8( <b d>) <a c>( <g b>) |
+  << {g d g g'} \\ {g,,2} >>
+  <g' b>8( <a c>) <b d>( <g b>) |
   a, e' a b \acciaccatura b c e, d' e |
-  fis a, c a fis' a, c a |
-  g' d, g d g' d, g d |
-  b' a, e' g 
+  << {fis a, c a fis' a, c a} \\ {d,1} >> |
+  << {g'8 d, g d g' d, g d} \\ {g,2 fis} >> |
+  << {b'8 a, e' g} \\ {e,2} >> 
 }
 
 music = \relative {
