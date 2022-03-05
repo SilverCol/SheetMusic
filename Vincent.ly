@@ -31,9 +31,14 @@ refrain = \relative {
   a, e' a b \acciaccatura b c e, d' e |
   << {fis a, c a fis' a, c a} \\ {d,1} >> |
   << {g'8 d, g d g' d, g d} \\ {g,2 fis} >> |
-  << {b'8 b, e g c4 d} \\ {e,,2 e8 b'4 e8} >> |
-  << {e'8 e, a e d'4 e} \\ {a,,2 a8 e'4 c'8}  >> |
-  << {fis8 a, c a fis' c a d,} \\ {d2~ d4.}  >> |
+  << {e8 b' e g c4 d} \\ {r2 r8 b,4 e8} >> |
+  << {e'8 e, a e d'4 e} \\ {a,,2~ 8 e'4 c'8}  >> |
+  << {fis8 a, c a fis' a, c a} \\ {d,1}  >> |
+  <e, b' e g b e>1\arpeggio |
+  << {a8 e' g cis e4 cis} \\ {r2 r8 b,4 g'8} >> |
+  << {c e, g c d, a' c a} \\ {a,2 r2} >> |
+  << {g''8 d, g d fis' d, e' d,} \\ {g,1} >> |
+  << {d''8 d, g d'} \\ {g,,2} >>
 }
 
 music = \relative {
